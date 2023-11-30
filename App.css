@@ -1,0 +1,67 @@
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bb2424;
+  height: 80vh;
+}
+body {
+  background: url("C:\sid9\Registration Form\my-registration-form\src\RegistrationForm.js\s1.jpg");
+  background-repeat: no-repeat;
+  background-size: 1010px 1010px; 
+}
+
+.Registration-Form {
+  background-color: #b41d1d;
+  padding: 7px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(94, 0, 0, 0.071);
+  width: 20px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+input {
+  width: 30%;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid #aa1212;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #9e550d;
+  color: #550202;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: #f00;
+  font-size: 14px;
+  margin-top: -8px;
+  margin-bottom: 16px;
+}
+
+.success-message {
+  text-align: center;
+  color: #4caf50;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #125503;
+}
